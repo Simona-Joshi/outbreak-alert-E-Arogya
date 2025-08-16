@@ -1,0 +1,139 @@
+Source_File,Week_Number,Disease_Syndrome,Previous_Week_Cases,Current_Week_Cases,Change_in_Cases,Same_Week_Last_Year,Year_over_Year_Change,Trend,Top_Affected_Districts
+17.csv,17,AGE,574,677,103,885,-208,"Large increase, yearly decrease","KATHMANDU (52), KAILALI (44), PARSA (39)"
+17.csv,17,SARI,403,430,27,398,32,Increasing,"KATHMANDU (60), SUNSARI (28), MORANG (26)"
+17.csv,17,Cholera,0,1,1,0,1,New cases appeared,"RUPANDEHI (5), BAGLUNG (2), BHAKTAPUR (2)"
+17.csv,17,Dengue,29,35,6,55,-20,"Increasing, yearly decrease","KATHMANDU (7), SUNSARI (5), KAILALI (4)"
+17.csv,17,Kala azar,4,1,-3,2,-1,"Weekly decrease, yearly decrease","RUKUM WEST (1), -, -"
+17.csv,17,Malaria,1,10,9,1,9,Large increase,"KAILALI (3), BAJURA (2), PYUTHAN (1)"
+17.csv,17,Scrub Typhus,,,,,,Data available,"DANG (16), DADELDHURA (8), CHITAWAN (5)"
+17.csv,17,Enteric Fever,,,,,,Data available,"PARSA (9), ROLPA (8), KATHMANDU (6)"
+17.csv,17,Influenza Like Illness,,,,,,Data available,"KAILALI (54), BHAKTAPUR (33), SINDHUPALCHOK (25)"
+18.csv,18,AGE,687,646,-41,694,-48,Decreasing,"KAILALI (77), KATHMANDU (42), PARSA (39)"
+18.csv,18,SARI,442,364,-78,383,-19,Decreasing,"KATHMANDU (28), MORANG (25), SUNSARI (23)"
+18.csv,18,Cholera,1,0,-1,1,-1,Decreasing,"BHAKTAPUR (12), SINDHUPALCHOK (3), RUPANDEHI (2)"
+18.csv,18,Dengue,35,31,-4,51,-20,Decreasing,"JHAPA (5), DADELDHURA (3), SURKHET (3)"
+18.csv,18,Kala azar,1,6,5,5,1,Increasing,"BANKE (2), SURKHET (1), KALIKOT (1)"
+18.csv,18,Malaria,10,4,-6,0,4,Decreasing,"KAILALI (2), SURKHET (1), DAILEKH (1)"
+19.csv,19,AGE,652,639,-13,721,-82,Decreasing,"KATHMANDU (53), PARSA (46), KAILALI (31)"
+19.csv,19,SARI,368,348,-20,378,-30,Decreasing,"KATHMANDU (24), RUPANDEHI (23), MORANG (17)"
+19.csv,19,Cholera,0,0,0,0,0,No Change,"BHAKTAPUR (18), TANAHU (4), BAGLUNG (1)"
+19.csv,19,Dengue,34,33,-1,54,-21,Decreasing,"KATHMANDU (6), KANCHANPUR (5), DANG (5)"
+19.csv,19,Kala azar,6,4,-2,5,-1,Decreasing,"DADELDHURA (2), KANCHANPUR (1), KALIKOT (1)"
+19.csv,19,Malaria,4,3,-1,0,3,Decreasing,"KAILALI (2), BAJURA (1), BAGLUNG (1)"
+21.csv,21,SARI,386,374,-12,335,39,"Weekly decrease, yearly increase",KATHMANDU (40)MORANG (21)KAILALI (18)
+21.csv,21,Cholera,0,0,0,0,0,No cases,BHAKTAPUR (13)BHOJPUR (5)KAILALI (2)
+21.csv,21,Dengue,45,45,0,56,-11,"Stable weekly, decreased yearly",PALPA (9)KASKI (8)KATHMANDU (6)
+21.csv,21,Kala azar,8,5,-3,4,1,"Weekly decrease, yearly increase",GULMI (2)KALIKOT (1)PALPA (1)
+21.csv,21,Malaria,6,2,-4,1,1,"Weekly decrease, yearly increase",KATHMANDU (3)RUPANDEHI (1)BAGLUNG (1)
+21.csv,21,Scrub Typhus,,,,,,Data available,SANKHUWASABHA (15)ACHHAM (6)KASKI (6)
+21.csv,21,Enteric Fever,,,,,,Data available,KAILALI (48)KANCHANPUR (16)DARCHULA (8)
+21.csv,21,Influenza Like Illness,,,,,,Data available,ACHHAM (34)SINDHUPALCHOK (28)KAILALI (26)
+22.csv,22,AGE,704,692,-12,712,-20,Decreasing,"KATHMANDU (95), PARSA (44), KAILALI (40)"
+22.csv,22,SARI,379,368,-11,354,14,Decreasing,"KATHMANDU (42), RUPANDEHI (18), BHAKTAPUR (15)"
+22.csv,22,Cholera,0,0,0,0,0,No change,No active cases
+22.csv,22,Dengue,45,44,-1,62,-18,Decreasing,"KASKI (9), PALPA (6), CHITAWAN (6)"
+22.csv,22,Kala azar,5,4,-1,5,-1,Decreasing,"PALPA (1), ROLPA (1), TANAHU (1)"
+22.csv,22,Malaria,2,3,1,0,3,Increasing,"KASKI (2), KATHMANDU (2), DAILEKH (1)"
+23.csv,23,SARI,381,313,-68,339,-26,Decreasing,KATHMANDU (46)MORANG (19)SUNSARI (14)
+23.csv,23,Cholera,0,1,1,0,1,Increasing,BANKE (4)BHAKTAPUR (3)RUPANDEHI (2)
+23.csv,23,Dengue,47,53,6,49,4,Increasing,LAMJUNG (9)KATHMANDU (9)PALPA (7)
+23.csv,23,Kala azar,5,4,-1,4,0,"Weekly decrease, yearly stable",PYUTHAN (3)KALIKOT (1)SUNSARI (1)
+23.csv,23,Malaria,3,3,0,0,3,"Stable weekly, increased yearly",KATHMANDU (2)--
+23.csv,23,Scrub Typhus,,,,,,Data available,SANKHUWASABHA (11)DANG (10)LAMJUNG (7)
+23.csv,23,Enteric Fever,,,,,,Data available,KAILALI (54)KANCHANPUR (19)KATHMANDU (11)
+23.csv,23,Influenza Like Illness,,,,,,Data available,SINDHUPALCHOK (45)KAILALI (43)ACHHAM (30)
+24.csv,24,AGE,800,829,29,743,86,Increasing,"KATHMANDU (107), LALITPUR (60), BHAKTAPUR (55)"
+24.csv,24,SARI,336,384,48,317,67,Increasing,"KATHMANDU (32), JHAPA (20), MORANG (18)"
+24.csv,24,Cholera,1,0,-1,0,0,Decreasing,"BHAKTAPUR (37), DOLAKHA (4), RUPANDEHI (3)"
+24.csv,24,Dengue,54,65,11,89,-24,Increasing,"LAMJUNG (11), KATHMANDU (9), PALPA (8)"
+24.csv,24,Kala azar,4,1,-3,4,-3,Decreasing,"KAILALI (1), RAUTAHAT (1), - (-)"
+24.csv,24,Malaria,3,4,1,1,3,Increasing,"ACHHAM (1), DOTI (1), KALIKOT (1)"
+25.csv,25,AGE,830,760,-70,713,47,Decreasing,"KATHMANDU (126), PARSA (37), LALITPUR (35)"
+25.csv,25,SARI,384,375,-9,269,106,Decreasing,"KATHMANDU (30), RASUWA (18), MORANG (18)"
+25.csv,25,Cholera,0,1,1,0,1,Increase in number of cases,"BHAKTAPUR (13), PYUTHAN (3), BAGLUNG (2)"
+25.csv,25,Dengue,67,81,14,65,16,Increasing,"KATHMANDU (18), LAMJUNG (16), KASKI (9)"
+25.csv,25,Kala azar,1,3,2,7,-4,Increasing,"SURKHET (2), RUPANDEHI (1), PALPA (1)"
+25.csv,25,Malaria,4,3,-1,0,3,Decreasing,"DAILEKH (1), KALIKOT (1), KAPILBASTU (1)"
+26.csv,26,SARI,376,301,-75,319,-18,Decreasing,KATHMANDU (27)KAILALI (21)RASUWA (21)
+26.csv,26,Cholera,1,0,-1,1,-1,Decreasing,KHOTANG (4)RUPANDEHI (3)MYAGDI (2)
+26.csv,26,Dengue,81,72,-9,92,-20,Decreasing,KASKI (14)KATHMANDU (13)SUNSARI (10)
+26.csv,26,Kala azar,3,5,2,5,0,"Weekly increase, yearly stable",LALITPUR (2)KAILALI (1)SALYAN (1)
+26.csv,26,Malaria,3,5,2,2,3,Increasing,KAILALI (2)KAPILBASTU (1)-
+26.csv,26,Scrub Typhus,,,,,,Data available,DANG (12)SANKHUWASABHA (12)PYUTHAN (8)
+26.csv,26,Enteric Fever,,,,,,Data available,KAILALI (62)KANCHANPUR (14)DARCHULA (10)
+26.csv,26,Influenza Like Illness,,,,,,Data available,KAILALI (82)SINDHUPALCHOK (36)BAITADI (35)
+28.csv,28,AGE,604,544,-60,581,-37,Decreasing,"KATHMANDU (64), PARSA (39), LALITPUR (38)"
+28.csv,28,SARI,299,353,54,293,60,Increasing,"KATHMANDU (39), BAITADI (16), SUNSARI (15)"
+28.csv,28,Cholera,0,0,0,1,-1,Stable,"BHAKTAPUR (15), RUPANDEHI (2), SINDHUPALCHOK (2)"
+28.csv,28,Dengue,62,85,23,103,-18,"Weekly increase, yearly decrease","PALPA (15), KATHMANDU (11), LAMJUNG (9)"
+28.csv,28,Kala azar,3,6,3,4,2,Increasing,"DAILEKH (1), KALIKOT (1), MAKWANPUR (1)"
+28.csv,28,Malaria,5,13,8,1,12,Significantly increasing,"DADELDHURA (2), SURKHET (2), KASKI (1)"
+28.csv,28,Scrub Typhus,,,,,,Data available,"SANKHUWASABHA (17), DANG (14), PALPA (13)"
+28.csv,28,Enteric Fever,,,,,,Data available,"KAILALI (33), PARSA (16), KANCHANPUR (10)"
+28.csv,28,Influenza Like Illness,,,,,,Data available,"KAILALI (82), BAITADI (38), BHAKTAPUR (23)"
+29.csv,29,AGE,548,580,32,634,-54,Increasing,"KATHMANDU (57), KAILALI (38), LALITPUR (31)"
+29.csv,29,SARI,353,288,-65,280,8,Decreasing,"KATHMANDU (29), BAITADI (19), RASUWA (14)"
+29.csv,29,Cholera,0,0,0,2,-2,No change,No active cases
+29.csv,29,Dengue,85,108,23,123,-15,Increasing,"KASKI (18), PALPA (14), KATHMANDU (14)"
+29.csv,29,Kala azar,6,3,-3,7,-4,Decreasing,"DARCHULA (1), BANKE (1), MAKWANPUR (1)"
+29.csv,29,Malaria,13,9,-4,2,7,Decreasing,"BARDIYA (2), BAGLUNG (1), SYANGJA (1)"
+30.csv,30,AGE,581,599,18,650,-51,"Slight increase, yearly decrease","KATHMANDU (80), PARSA (50), BHAKTAPUR (32)"
+30.csv,30,SARI,295,325,30,298,27,Increasing,"KATHMANDU (38), RUPANDEHI (18), BHAKTAPUR (13)"
+30.csv,30,Cholera,0,0,0,11,-11,"Stable, yearly decrease","BHAKTAPUR (4), DOLAKHA (4), KHOTANG (4)"
+30.csv,30,Dengue,111,136,25,209,-73,"Increasing, yearly decrease","KASKI (17), KATHMANDU (17), PALPA (14)"
+30.csv,30,Kala azar,3,6,3,8,-2,"Increasing, yearly decrease","JAJARKOT (1), DAILEKH (1), BARDIYA (1)"
+30.csv,30,Malaria,9,6,-3,0,6,"Weekly decrease, yearly increase","KAILALI (5), RUPANDEHI (1), KATHMANDU (1)"
+30.csv,30,Scrub Typhus,,,,,,Data available,"ACHHAM (51), DANG (24), SANKHUWASABHA (22)"
+30.csv,30,Enteric Fever,,,,,,Data available,"KAILALI (57), KANCHANPUR (23), KATHMANDU (13)"
+30.csv,30,Influenza Like Illness,,,,,,Data available,"KAILALI (58), ACHHAM (33), BAJURA (25)"
+31.csv,31,AGE,601,554,-47,693,-139,Decreasing,"KATHMANDU (48), KAILALI (30), MAKWANPUR (28)"
+31.csv,31,SARI,329,272,-57,322,-50,Decreasing,"KATHMANDU (33), MORANG (18), PYUTHAN (17)"
+31.csv,31,Cholera,0,0,0,17,-17,"Stable, yearly decrease","BHAKTAPUR (7), ACHHAM (4), BHOJPUR (2)"
+31.csv,31,Dengue,136,138,2,319,-181,"Slight increase, yearly decrease","KASKI (19), PALPA (17), KATHMANDU (14)"
+31.csv,31,Kala azar,6,4,-2,1,3,"Weekly decrease, yearly increase","KAILALI (1), SURKHET (1), JAJARKOT (1)"
+31.csv,31,Malaria,6,7,1,0,7,"Slight increase, yearly increase","SARLAHI (2), BARDIYA (1), KAPILBASTU (1)"
+31.csv,31,Scrub Typhus,,,,,,Data available,"ACHHAM (38), SANKHUWASABHA (30), DANG (24)"
+31.csv,31,Enteric Fever,,,,,,Data available,"KAILALI (61), KANCHANPUR (19), PALPA (12)"
+31.csv,31,Influenza Like Illness,,,,,,Data available,"KAILALI (85), KANCHANPUR (28), ACHHAM (26)"
+week21_comparative_analysis (1).csv,21,SARI,386,374,-12,335,39,"Weekly decrease, yearly increase",KATHMANDU (40)MORANG (21)KAILALI (18)
+week21_comparative_analysis (1).csv,21,Cholera,0,0,0,0,0,No cases,BHAKTAPUR (13)BHOJPUR (5)KAILALI (2)
+week21_comparative_analysis (1).csv,21,Dengue,45,45,0,56,-11,"Stable weekly, decreased yearly",PALPA (9)KASKI (8)KATHMANDU (6)
+week21_comparative_analysis (1).csv,21,Kala azar,8,5,-3,4,1,"Weekly decrease, yearly increase",GULMI (2)KALIKOT (1)PALPA (1)
+week21_comparative_analysis (1).csv,21,Malaria,6,2,-4,1,1,"Weekly decrease, yearly increase",KATHMANDU (3)RUPANDEHI (1)BAGLUNG (1)
+week21_comparative_analysis (1).csv,21,Scrub Typhus,,,,,,Data available,SANKHUWASABHA (15)ACHHAM (6)KASKI (6)
+week21_comparative_analysis (1).csv,21,Enteric Fever,,,,,,Data available,KAILALI (48)KANCHANPUR (16)DARCHULA (8)
+week21_comparative_analysis (1).csv,21,Influenza Like Illness,,,,,,Data available,ACHHAM (34)SINDHUPALCHOK (28)KAILALI (26)
+week23_comparative_analysis.csv,23,SARI,381,313,-68,339,-26,Decreasing,KATHMANDU (46)MORANG (19)SUNSARI (14)
+week23_comparative_analysis.csv,23,Cholera,0,1,1,0,1,Increasing,BANKE (4)BHAKTAPUR (3)RUPANDEHI (2)
+week23_comparative_analysis.csv,23,Dengue,47,53,6,49,4,Increasing,LAMJUNG (9)KATHMANDU (9)PALPA (7)
+week23_comparative_analysis.csv,23,Kala azar,5,4,-1,4,0,"Weekly decrease, yearly stable",PYUTHAN (3)KALIKOT (1)SUNSARI (1)
+week23_comparative_analysis.csv,23,Malaria,3,3,0,0,3,"Stable weekly, increased yearly",KATHMANDU (2)--
+week23_comparative_analysis.csv,23,Scrub Typhus,,,,,,Data available,SANKHUWASABHA (11)DANG (10)LAMJUNG (7)
+week23_comparative_analysis.csv,23,Enteric Fever,,,,,,Data available,KAILALI (54)KANCHANPUR (19)KATHMANDU (11)
+week23_comparative_analysis.csv,23,Influenza Like Illness,,,,,,Data available,SINDHUPALCHOK (45)KAILALI (43)ACHHAM (30)
+week26_comparative_analysis.csv,26,SARI,376,301,-75,319,-18,Decreasing,KATHMANDU (27)KAILALI (21)RASUWA (21)
+week26_comparative_analysis.csv,26,Cholera,1,0,-1,1,-1,Decreasing,KHOTANG (4)RUPANDEHI (3)MYAGDI (2)
+week26_comparative_analysis.csv,26,Dengue,81,72,-9,92,-20,Decreasing,KASKI (14)KATHMANDU (13)SUNSARI (10)
+week26_comparative_analysis.csv,26,Kala azar,3,5,2,5,0,"Weekly increase, yearly stable",LALITPUR (2)KAILALI (1)SALYAN (1)
+week26_comparative_analysis.csv,26,Malaria,3,5,2,2,3,Increasing,KAILALI (2)KAPILBASTU (1)-
+week26_comparative_analysis.csv,26,Scrub Typhus,,,,,,Data available,DANG (12)SANKHUWASABHA (12)PYUTHAN (8)
+week26_comparative_analysis.csv,26,Enteric Fever,,,,,,Data available,KAILALI (62)KANCHANPUR (14)DARCHULA (10)
+week26_comparative_analysis.csv,26,Influenza Like Illness,,,,,,Data available,KAILALI (82)SINDHUPALCHOK (36)BAITADI (35)
+week28_comparative_analysis.csv,28,AGE,604,544,-60,581,-37,Decreasing,"KATHMANDU (64), PARSA (39), LALITPUR (38)"
+week28_comparative_analysis.csv,28,SARI,299,353,54,293,60,Increasing,"KATHMANDU (39), BAITADI (16), SUNSARI (15)"
+week28_comparative_analysis.csv,28,Cholera,0,0,0,1,-1,Stable,"BHAKTAPUR (15), RUPANDEHI (2), SINDHUPALCHOK (2)"
+week28_comparative_analysis.csv,28,Dengue,62,85,23,103,-18,"Weekly increase, yearly decrease","PALPA (15), KATHMANDU (11), LAMJUNG (9)"
+week28_comparative_analysis.csv,28,Kala azar,3,6,3,4,2,Increasing,"DAILEKH (1), KALIKOT (1), MAKWANPUR (1)"
+week28_comparative_analysis.csv,28,Malaria,5,13,8,1,12,Significantly increasing,"DADELDHURA (2), SURKHET (2), KASKI (1)"
+week28_comparative_analysis.csv,28,Scrub Typhus,,,,,,Data available,"SANKHUWASABHA (17), DANG (14), PALPA (13)"
+week28_comparative_analysis.csv,28,Enteric Fever,,,,,,Data available,"KAILALI (33), PARSA (16), KANCHANPUR (10)"
+week28_comparative_analysis.csv,28,Influenza Like Illness,,,,,,Data available,"KAILALI (82), BAITADI (38), BHAKTAPUR (23)"
+week31_comparative_analysis.csv,31,AGE,601,554,-47,693,-139,Decreasing,"KATHMANDU (48), KAILALI (30), MAKWANPUR (28)"
+week31_comparative_analysis.csv,31,SARI,329,272,-57,322,-50,Decreasing,"KATHMANDU (33), MORANG (18), PYUTHAN (17)"
+week31_comparative_analysis.csv,31,Cholera,0,0,0,17,-17,"Stable, yearly decrease","BHAKTAPUR (7), ACHHAM (4), BHOJPUR (2)"
+week31_comparative_analysis.csv,31,Dengue,136,138,2,319,-181,"Slight increase, yearly decrease","KASKI (19), PALPA (17), KATHMANDU (14)"
+week31_comparative_analysis.csv,31,Kala azar,6,4,-2,1,3,"Weekly decrease, yearly increase","KAILALI (1), SURKHET (1), JAJARKOT (1)"
+week31_comparative_analysis.csv,31,Malaria,6,7,1,0,7,"Slight increase, yearly increase","SARLAHI (2), BARDIYA (1), KAPILBASTU (1)"
+week31_comparative_analysis.csv,31,Scrub Typhus,,,,,,Data available,"ACHHAM (38), SANKHUWASABHA (30), DANG (24)"
+week31_comparative_analysis.csv,31,Enteric Fever,,,,,,Data available,"KAILALI (61), KANCHANPUR (19), PALPA (12)"
+week31_comparative_analysis.csv,31,Influenza Like Illness,,,,,,Data available,"KAILALI (85), KANCHANPUR (28), ACHHAM (26)"
