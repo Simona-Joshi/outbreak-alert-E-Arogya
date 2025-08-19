@@ -93,6 +93,7 @@ export default function LiveTracker() {
         setLocationPermission(true);
         const currentLocation = await Location.getCurrentPositionAsync({});
         setLocation(currentLocation);
+        setCurrentLocation({ latitude: currentLocation.coords.latitude, longitude: currentLocation.coords.longitude });
         fetchLocationBasedOutbreaks(currentLocation.coords.latitude, currentLocation.coords.longitude);
       } else {
         Alert.alert(
@@ -296,17 +297,17 @@ export default function LiveTracker() {
         <View style={styles.headerActions}>
           <TouchableOpacity 
             style={styles.backButton} 
-            onPress={() => router.push('/(tabs)')}
+            onPress={() => router.back()}
           >
             <Ionicons name="arrow-back" size={24} color="#1E40AF" />
           </TouchableOpacity>
           <TouchableOpacity style={styles.refreshButton} onPress={() => {
-          if (currentLocation) {
-            fetchLocationBasedOutbreaks(currentLocation.latitude, currentLocation.longitude);
-          }
-          fetchNationalOverview();
-          fetchDiseaseStats();
-        }}>
+            if (location) {
+              fetchLocationBasedOutbreaks(location.coords.latitude, location.coords.longitude);
+            }
+            fetchNationalOverview();
+            fetchDiseaseStats();
+          }}>
           <Ionicons name="refresh" size={20} color="#1E40AF" />
         </TouchableOpacity>
         </View>

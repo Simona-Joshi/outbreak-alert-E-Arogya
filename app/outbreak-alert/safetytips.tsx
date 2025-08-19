@@ -196,7 +196,7 @@ export default function SafetyTips() {
 
       {/* Enhanced Header */}
       <View style={styles.header}>
-        <TouchableOpacity style={styles.backButton} onPress={() => router.push('/(tabs)')}>
+        <TouchableOpacity style={styles.backButton} onPress={() => router.back()}>
           <Ionicons name="arrow-back" size={24} color="#1F2937" />
         </TouchableOpacity>
         <View style={styles.headerTitleContainer}>

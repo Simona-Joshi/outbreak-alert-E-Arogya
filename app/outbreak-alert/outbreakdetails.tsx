@@ -1,8 +1,10 @@
 import { Ionicons } from '@expo/vector-icons';
 import { useLocalSearchParams, useRouter } from 'expo-router';
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import {
+  Animated,
   Platform,
+  RefreshControl,
   SafeAreaView,
   ScrollView,
   StatusBar,
@@ -10,8 +12,6 @@ import {
   Text,
   TouchableOpacity,
   View,
-  RefreshControl,
-  Animated,
 } from 'react-native';
 
 interface OutbreakData {
@@ -48,7 +48,8 @@ export default function OutbreakDetails() {
   const router = useRouter();
   const [outbreaks, setOutbreaks] = useState<OutbreakData[]>([]);
   const [refreshing, setRefreshing] = useState(false);
-  const fadeAnim = new Animated.Value(0);
+  const [loading, setLoading] = useState(true);
+  const fadeAnim = React.useRef(new Animated.Value(0)).current;
 
   useEffect(() => {
     fetchOutbreaks();
@@ -57,10 +58,11 @@ export default function OutbreakDetails() {
       duration: 800,
       useNativeDriver: true,
     }).start();
-  }, []);
+  }, [fadeAnim]);
 
   const fetchOutbreaks = async () => {
     try {
+      setLoading(true);
       // Backend removed - using fallback data only
       throw new Error('Using fallback data');
     } catch (error) {
@@ -108,13 +110,18 @@ export default function OutbreakDetails() {
         },
       ];
       setOutbreaks(data);
+    } finally {
+      setLoading(false);
     }
   };
 
   const onRefresh = async () => {
     setRefreshing(true);
-    await fetchOutbreaks();
-    setRefreshing(false);
+    try {
+      await fetchOutbreaks();
+    } finally {
+      setRefreshing(false);
+    }
   };
 
   const getRiskLevelColor = (riskLevel: string) => {
@@ -160,13 +167,24 @@ export default function OutbreakDetails() {
     }
   };
 
+  if (loading) {
+    return (
+      <SafeAreaView style={styles.safeArea}>
+        <StatusBar barStyle="dark-content" backgroundColor="#f8fafc" />
+        <View style={styles.loadingContainer}>
+          <Text style={styles.loadingText}>Loading outbreak data...</Text>
+        </View>
+      </SafeAreaView>
+    );
+  }
+
   return (
     <SafeAreaView style={styles.safeArea}>
       <StatusBar barStyle="dark-content" backgroundColor="#f8fafc" />
 
       {/* Header */}
       <View style={styles.header}>
-        <TouchableOpacity style={styles.backButton} onPress={() => router.push('/(tabs)')}>
+        <TouchableOpacity style={styles.backButton} onPress={() => router.back()}>
           <Ionicons name="arrow-back" size={24} color="#1F2937" />
         </TouchableOpacity>
         <Text style={styles.headerTitle}>Outbreak Details</Text>
@@ -181,7 +199,7 @@ export default function OutbreakDetails() {
           <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
         }
       >
-        <Animated.View style={{ opacity: fadeAnim }}>
+        <Animated.View style={{ opacity: fadeAnim, flex: 1 }}>
           {/* Featured Alert */}
           <View style={[styles.featuredCard, { backgroundColor: getRiskLevelBgColor(riskLevel as string) }]}>
             <View style={styles.featuredHeader}>
@@ -298,7 +316,7 @@ export default function OutbreakDetails() {
             <View style={styles.actionButtons}>
               <TouchableOpacity
                 style={styles.actionButton}
-                onPress={() => router.push('/(tabs)/safetytips')}
+                onPress={() => router.push('./safetytips')}
               >
                 <Ionicons name="shield-checkmark" size={20} color="#059669" />
                 <Text style={styles.actionButtonText}>Safety Tips</Text>
@@ -306,7 +324,7 @@ export default function OutbreakDetails() {
 
               <TouchableOpacity
                 style={styles.actionButton}
-                onPress={() => router.push('/(tabs)/livetracker')}
+                onPress={() => router.push('./livetracker')}
               >
                 <Ionicons name="location" size={20} color="#1E40AF" />
                 <Text style={styles.actionButtonText}>Live Tracker</Text>
@@ -574,5 +592,16 @@ const styles = StyleSheet.create({
     fontSize: 14,
     fontWeight: '600',
     color: '#374151',
+  },
+  loadingContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 20,
+  },
+  loadingText: {
+    fontSize: 16,
+    color: '#6B7280',
+    fontWeight: '500',
   },
 });

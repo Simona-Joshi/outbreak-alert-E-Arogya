@@ -1,39 +1,23 @@
-import { Stack } from 'expo-router';
+import { Tabs } from 'expo-router';
+import { Ionicons } from '@expo/vector-icons';
 
-export default function Layout() {
+export default function TabLayout() {
   return (
-    <Stack
+    <Tabs
       screenOptions={{
+        tabBarActiveTintColor: '#1E40AF',
         headerShown: false,
       }}
     >
-      <Stack.Screen
+      <Tabs.Screen
         name="index"
         options={{
-          title: 'E-Aarogya',
+          title: 'Dashboard',
+          tabBarIcon: ({ color, focused }) => (
+            <Ionicons name={focused ? 'home' : 'home-outline'} color={color} size={24} />
+          ),
         }}
       />
-      <Stack.Screen
-        name="livetracker"
-        options={{
-          title: 'Live Disease Tracker',
-          presentation: 'modal',
-        }}
-      />
-      <Stack.Screen
-        name="outbreakdetails"
-        options={{
-          title: 'Outbreak Details',
-          presentation: 'modal',
-        }}
-      />
-      <Stack.Screen
-        name="safetytips"
-        options={{
-          title: 'Safety Tips',
-          presentation: 'modal',
-        }}
-      />
-    </Stack>
+    </Tabs>
   );
 }
